@@ -16,7 +16,6 @@ document.querySelector('#app').innerHTML = `
 </nav>
 <main id="portail">
   <section class="block anglais" id="anglais">
-    <div class="icon">🇬🇧</div>
     <h2>Anglais</h2>
     <p>Pour le lycée général, le professionnel et le CFA</p>
     <div class="links">
@@ -28,7 +27,6 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <section class="block francais" id="francais">
-    <div class="icon">📚</div>
     <h2>Français</h2>
     <p>Séquences pour la première, en lien avec le programme</p>
     <div class="links">
@@ -42,7 +40,6 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <section class="block fle" id="fle">
-    <div class="icon">🌐</div>
     <h2>FLE</h2>
     <p>Ressources pour le français langue étrangère</p>
     <div class="links">
@@ -51,7 +48,6 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <section class="block gerex" id="gerex">
-    <div class="icon">🎓</div>
     <h2>GEREX</h2>
     <p>Un accompagnement personnalisé, quelle que soit la matière</p>
     <ul>
@@ -65,7 +61,6 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <section class="block culture" id="culture">
-    <div class="icon">🎉</div>
     <h2>Fêtes & Culture</h2>
     <p>Les célébrations du monde anglophone</p>
     <div class="links">
