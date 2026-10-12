@@ -71,6 +71,19 @@
       border-radius: 16px;
       box-shadow: 0 6px 20px rgba(0,0,0,0.1);
     }
+    .pdf-btn {
+      display: inline-block;
+      margin: 1.5rem 0;
+      padding: 0.7rem 1.5rem;
+      background: #1a1a2e;
+      color: #d4af37;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+    .pdf-btn:hover { opacity: 0.9; }
     .back {
       display: inline-block;
       margin-top: 2.5rem;
@@ -89,6 +102,8 @@
     <p>Parcours : Dans l’atelier du poète — Première générale</p>
   </div>
   <div class="content">
+    <button class="pdf-btn" onclick="window.print()">Télécharger en PDF</button>
+
     <div class="section">
       <h2>Problématique</h2>
       <p>Comment Ponge, en refusant le lyrisme traditionnel, fait-il de la langue un matériau qu’il façonne, et que dit cette pratique de la création poétique ?</p>
