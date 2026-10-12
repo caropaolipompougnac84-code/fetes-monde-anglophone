@@ -65,11 +65,8 @@ document.querySelector('#app').innerHTML = `
     </div>
   </section>
 
-  <section class="block">
-    <h2>Version PDF</h2>
-    <div class="links">
-      <a href="/portail-pdf.html" target="_blank">Cliquez ici pour télécharger le portail en PDF</a>
-    </div>
+  <section class="block" style="text-align:center">
+    <a href="/portail-pdf.html" target="_blank" style="display:inline-block;background:#111;color:#d4af37;padding:.8rem 1.6rem;text-decoration:none;border-radius:4px;font-weight:500">Télécharger le portail en PDF</a>
   </section>
 </main>
 <footer>
