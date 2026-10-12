@@ -3,7 +3,7 @@ import './style.css'
 document.querySelector('#app').innerHTML = `
 <header>
   <h1>Ressources Anglais & Lettres</h1>
-  <p>Portail pédagogique — Talence</p>
+  <p class="slogan">Accompagner chaque élève, dans toutes les matières.</p>
 </header>
 <nav>
   <a href="#portail">Portail</a>
