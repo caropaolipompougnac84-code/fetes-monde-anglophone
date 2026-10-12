@@ -5,6 +5,21 @@ const description = import.meta.env.VITE_SITE_DESCRIPTION || 'Célébrations du 
 const email = import.meta.env.VITE_CONTACT_EMAIL || ''
 const facebookUrl = 'https://www.facebook.com/410547534736449/'
 
+const festivals = [
+  { name: 'Halloween', date: '31 octobre', img: 'https://images.unsplash.com/photo-1508361001413-7a9dca21d08a?w=400', desc: 'Fête des déguisements, citrouilles sculptées et bonbons. Très populaire aux USA, UK et Canada.' },
+  { name: 'Thanksgiving', date: '4e jeudi de novembre', img: 'https://images.unsplash.com/photo-1574672280600-4accfa5b6f98?w=400', desc: 'Repas familial et expression de gratitude. Célébré aux États-Unis et au Canada.' },
+  { name: 'Christmas', date: '25 décembre', img: 'https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=400', desc: 'Traditions variées selon les pays : sapin, cadeaux, repas. UK, USA, Australie, Canada.' },
+  { name: "St Patrick's Day", date: '17 mars', img: 'https://images.unsplash.com/photo-1528825871115-3581a5387919?w=400', desc: 'Fête irlandaise célébrée dans le monde anglophone. Vert, parades et festivités.' },
+  { name: 'Bonfire Night', date: '5 novembre', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400', desc: 'Commémoration de Guy Fawkes au Royaume-Uni. Feux de joie et feux d\'artifice.' },
+  { name: 'Australia Day', date: '26 janvier', img: 'https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=400', desc: 'Fête nationale australienne. Barbecues, feux d\'artifice et débats sur l\'histoire.' },
+  { name: 'Independence Day', date: '4 juillet', img: 'https://images.unsplash.com/photo-1533154683836-84ea7a0bc310?w=400', desc: 'Fête nationale américaine. Feux d\'artifice, barbecues et célébrations patriotiques.' },
+  { name: 'Diwali', date: 'Octobre-novembre', img: 'https://images.unsplash.com/photo-1604608672516-f1b9b1d37076?w=400', desc: 'Fête des lumières. Célébrée en Inde et dans les communautés du Commonwealth.' },
+  { name: 'Canada Day', date: '1er juillet', img: 'https://images.unsplash.com/photo-1503614472-8c93d56e92ce?w=400', desc: 'Fête nationale canadienne. Feux d\'artifice, parades et symboles du pays.' },
+  { name: 'Anzac Day', date: '25 avril', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400', desc: 'Commémoration des soldats en Australie et Nouvelle-Zélande. Cérémonies à l\'aube.' },
+  { name: 'Boxing Day', date: '26 décembre', img: 'https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=400', desc: 'Lendemain de Noël. Soldes et traditions au UK, Canada et Australie.' },
+  { name: 'Guy Fawkes Night', date: '5 novembre', img: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400', desc: 'Version britannique de Bonfire Night. Histoire de la Conspiration des poudres.' }
+]
+
 document.querySelector('#app').innerHTML = `
 <header>
   <h1>${siteName}</h1>
@@ -18,18 +33,14 @@ document.querySelector('#app').innerHTML = `
 <main>
   <section id="fetes">
     <div class="grid">
-      <div class="card"><h2>Halloween</h2><div class="date">31 octobre</div><p>Déguisements, citrouilles et bonbons. UK, USA, Canada.</p></div>
-      <div class="card"><h2>Thanksgiving</h2><div class="date">4e jeudi de novembre (USA)</div><p>Traditions culinaires et gratitude. États-Unis et Canada.</p></div>
-      <div class="card"><h2>Christmas</h2><div class="date">25 décembre</div><p>Traditions UK / USA / Australie / Canada.</p></div>
-      <div class="card"><h2>St Patrick's Day</h2><div class="date">17 mars</div><p>Irlande, USA, Canada. Vert et festivités.</p></div>
-      <div class="card"><h2>Bonfire Night</h2><div class="date">5 novembre (UK)</div><p>Guy Fawkes, feux d'artifice et histoire britannique.</p></div>
-      <div class="card"><h2>Australia Day</h2><div class="date">26 janvier</div><p>Histoire et débats contemporains en Australie.</p></div>
-      <div class="card"><h2>Independence Day</h2><div class="date">4 juillet (USA)</div><p>Fête nationale américaine, feux d'artifice et barbecues.</p></div>
-      <div class="card"><h2>Diwali</h2><div class="date">Octobre-novembre</div><p>Fête des lumières célébrée en Inde et dans le Commonwealth.</p></div>
-      <div class="card"><h2>Canada Day</h2><div class="date">1er juillet</div><p>Fête nationale canadienne.</p></div>
-      <div class="card"><h2>Anzac Day</h2><div class="date">25 avril</div><p>Commémoration en Australie et Nouvelle-Zélande.</p></div>
-      <div class="card"><h2>Boxing Day</h2><div class="date">26 décembre</div><p>Lendemain de Noël, UK, Canada, Australie.</p></div>
-      <div class="card"><h2>Guy Fawkes Night</h2><div class="date">5 novembre</div><p>Version alternative de Bonfire Night, Royaume-Uni.</p></div>
+      ${festivals.map(f => `
+        <div class="card">
+          <img src="${f.img}" alt="${f.name}" class="card-img">
+          <h2>${f.name}</h2>
+          <div class="date">${f.date}</div>
+          <p>${f.desc}</p>
+        </div>
+      `).join('')}
     </div>
   </section>
   <section class="links">
