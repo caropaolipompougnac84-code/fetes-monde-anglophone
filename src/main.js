@@ -11,6 +11,7 @@ document.querySelector('#app').innerHTML = `
 </nav>
 <main id="portail">
   <section class="block anglais">
+    <div class="icon">🇬🇧</div>
     <h2>Anglais</h2>
     <p>Lycée général, professionnel et CFA</p>
     <div class="links">
@@ -21,6 +22,7 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <section class="block gerex">
+    <div class="icon">🎓</div>
     <h2>GEREX</h2>
     <p>Accompagnement personnalisé — toutes matières</p>
     <ul>
@@ -34,6 +36,7 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <section class="block culture">
+    <div class="icon">🎉</div>
     <h2>Fêtes & Culture</h2>
     <p>Célébrations du monde anglophone</p>
     <div class="links">
