@@ -29,6 +29,8 @@ main { max-width: 800px; margin: 3rem auto; padding: 0 1.5rem; }
 }
 .block h2 { margin: 0 0 0.4rem; font-size: 1.4rem; font-weight: 500; }
 .block p { margin: 0 0 1rem; color: #555; font-size: 0.95rem; }
+.block ul { margin: 0.5rem 0 1rem; padding-left: 1.2rem; color: #444; font-size: 0.95rem; }
+.block ul li { margin: 0.3rem 0; }
 .block.anglais { border-left: 4px solid #2b6cb0; }
 .block.gerex { border-left: 4px solid #6b46c1; }
 .block.culture { border-left: 4px solid #c53030; }

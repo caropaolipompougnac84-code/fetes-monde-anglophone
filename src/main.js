@@ -22,7 +22,12 @@ document.querySelector('#app').innerHTML = `
 
   <section class="block gerex">
     <h2>GEREX</h2>
-    <p>Accompagnement personnalisé pour les élèves — toutes matières</p>
+    <p>Accompagnement personnalisé — toutes matières</p>
+    <ul>
+      <li>Fiches et ressources adaptées aux besoins des élèves</li>
+      <li>Soutien dans toutes les disciplines</li>
+      <li>Suivi individualisé pour progresser à son rythme</li>
+    </ul>
     <div class="links">
       <a href="https://fiches-gerex.netlify.app">Fiches GEREX</a>
     </div>
