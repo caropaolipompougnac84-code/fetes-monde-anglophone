@@ -66,7 +66,7 @@ document.querySelector('#app').innerHTML = `
   </section>
 
   <section class="block" style="text-align:center">
-    <a href="/portail-pdf.html" target="_blank" style="display:inline-block;background:#111;color:#d4af37;padding:.8rem 1.6rem;text-decoration:none;border-radius:4px;font-weight:500;margin-right:1rem">Télécharger le portail en PDF</a>
+    <a href="/portail-pdf.html" target="_blank" style="display:inline-block;background:#111;color:#d4af37;padding:.8rem 1.6rem;text-decoration:none;border-radius:4px;font-weight:500;margin-right:1rem">Télécharger le fichier PDF</a>
     <button onclick="window.print()" style="background:#111;color:#d4af37;border:none;padding:.8rem 1.6rem;border-radius:4px;font-weight:500;cursor:pointer">Imprimer</button>
   </section>
 </main>
