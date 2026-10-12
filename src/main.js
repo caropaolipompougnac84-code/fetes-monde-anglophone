@@ -2,8 +2,8 @@ import './style.css'
 
 document.querySelector('#app').innerHTML = `
 <header>
-  <h1>Nelly F</h1>
-  <p class="slogan">Ressources Anglais et Lettres</p>
+  <h1>Ressources Anglais et Lettres</h1>
+  <p class="slogan">Accompagner chaque élève dans toutes les matières.</p>
 </header>
 <nav>
   <a href="#anglais">Anglais</a>
