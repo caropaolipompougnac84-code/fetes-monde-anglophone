@@ -2,8 +2,12 @@ import './style.css'
 
 document.querySelector('#app').innerHTML = `
 <header>
-  <div style="display:flex;align-items:center;justify-content:center;gap:1rem">
-    <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=80&h=80&fit=crop" alt="Logo" style="width:60px;height:60px;border-radius:8px;object-fit:cover">
+  <div style="display:flex;align-items:center;justify-content:center;gap:1.2rem;flex-wrap:wrap">
+    <svg width="70" height="70" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <rect width="100" height="100" rx="12" fill="#0f0f1a"/>
+      <path d="M25 35 L50 20 L75 35 L75 75 L25 75 Z" fill="#d4af37"/>
+      <path d="M35 45 L50 35 L65 45 L65 65 L35 65 Z" fill="#0f0f1a"/>
+    </svg>
     <div>
       <h1>Ressources Anglais et Lettres</h1>
       <p class="slogan">Accompagner chaque élève dans toutes les matières.</p>
