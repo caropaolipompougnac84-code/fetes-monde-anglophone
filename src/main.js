@@ -16,6 +16,7 @@ document.querySelector('#app').innerHTML = `
 <main>
   <section class="block anglais" id="anglais">
     <h2>Anglais</h2>
+    <p>Lycée général et professionnel</p>
     <div class="links">
       <a href="https://trame-anglais-lycee.netlify.app">Trames</a>
       <a href="https://prononciation-anglaise.netlify.app">Prononciation</a>
@@ -25,6 +26,7 @@ document.querySelector('#app').innerHTML = `
 
   <section class="block francais" id="francais">
     <h2>Français</h2>
+    <p>Première générale</p>
     <div class="links">
       <a href="/francais-rimbaud.html">Rimbaud</a>
       <a href="/francais-ponge.html">Ponge</a>
