@@ -9,6 +9,7 @@ document.querySelector('#app').innerHTML = `
   <a href="#anglais">Anglais</a>
   <a href="#francais">Français</a>
   <a href="#cfa">CFA</a>
+  <a href="#cap">CAP</a>
   <a href="#segpa">SEGPA</a>
   <a href="#gerex">GEREX</a>
 </nav>
@@ -34,8 +35,16 @@ document.querySelector('#app').innerHTML = `
 
   <section class="block cfa" id="cfa">
     <h2>CFA</h2>
+    <p>Bac pro et BTS</p>
     <div class="links">
       <a href="/cfa-anglais-professionnel.html">Anglais professionnel</a>
+    </div>
+  </section>
+
+  <section class="block cap" id="cap">
+    <h2>CAP</h2>
+    <div class="links">
+      <a href="/cap-anglais-professionnel.html">Anglais professionnel</a>
     </div>
   </section>
 
