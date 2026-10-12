@@ -8,6 +8,7 @@ document.querySelector('#app').innerHTML = `
 <nav>
   <a href="#anglais">Anglais</a>
   <a href="#francais">Français</a>
+  <a href="#bacpro">Bac pro</a>
   <a href="#cfa">CFA</a>
   <a href="#cap">CAP</a>
   <a href="#segpa">SEGPA</a>
@@ -32,6 +33,15 @@ document.querySelector('#app').innerHTML = `
       <a href="/francais-ponge.html">Cliquez ici pour Ponge</a>
       <a href="/francais-la-boetie.html">Cliquez ici pour La Boétie</a>
       <a href="/francais-theatre.html">Cliquez ici pour le théâtre</a>
+    </div>
+  </section>
+
+  <section class="block bacpro" id="bacpro">
+    <h2>Bac pro</h2>
+    <p>Français et anglais de haut niveau</p>
+    <div class="links">
+      <a href="/bacpro-francais.html">Cliquez ici pour le français</a>
+      <a href="/bacpro-anglais.html">Cliquez ici pour l’anglais</a>
     </div>
   </section>
 
