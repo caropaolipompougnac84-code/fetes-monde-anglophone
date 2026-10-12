@@ -97,11 +97,15 @@ main { max-width: 920px; margin: 3.5rem auto; padding: 0 1.5rem; }
   padding: 0.35rem 0;
   color: #1a1a2e;
   text-decoration: none;
-  border-bottom: 2px solid #d4af37;
   font-weight: 500;
   transition: all 0.2s;
 }
-.links a:hover { color: #b8860b; border-color: #b8860b; }
+.links a::before {
+  content: '→ ';
+  color: #d4af37;
+  margin-right: 0.3rem;
+}
+.links a:hover { color: #b8860b; }
 footer {
   text-align: center;
   padding: 3rem;
