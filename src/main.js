@@ -51,6 +51,7 @@ document.querySelector('#app').innerHTML = `
     <a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(siteUrl)}" target="_blank">Facebook</a>
     <a class="share-btn email" href="mailto:?subject=${shareText}&body=${encodeURIComponent(siteUrl)}">E-mail</a>
     <button class="share-btn copy" id="copy-link">Copier le lien</button>
+    <a class="share-btn view" href="${siteUrl}" target="_blank">Voir le site</a>
     <p id="copy-msg" style="margin-top:0.75rem;font-size:0.85rem;color:#276749;"></p>
   </section>
   <section class="links">
