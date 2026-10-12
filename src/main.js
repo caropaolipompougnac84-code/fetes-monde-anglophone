@@ -35,7 +35,7 @@ document.querySelector('#app').innerHTML = `
 
   <section class="block cfa" id="cfa">
     <h2>CFA</h2>
-    <p>Bac pro et BTS</p>
+    <p>CAP, bac pro et BTS</p>
     <div class="links">
       <a href="/cfa-anglais-professionnel.html">Anglais professionnel</a>
     </div>
