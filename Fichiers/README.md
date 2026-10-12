@@ -1,8 +1,12 @@
-# Code complet du portail
+# Dossiers par projet
 
-Ce dossier contient le code source du portail principal.
+Organisation des ressources :
 
-- `main.js` : structure et contenu de la page d’accueil
-- `style.css` : styles de la page
+- `01-Anglais`
+- `02-Francais`
+- `03-CFA`
+- `04-CAP`
+- `05-SEGPA`
+- `06-GEREX`
 
-Pour l’utiliser, placer ces fichiers dans un projet Vite ou équivalent.
+Chaque dossier contient les informations et le code associé à la section.
