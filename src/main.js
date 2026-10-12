@@ -38,6 +38,7 @@ document.querySelector('#app').innerHTML = `
     <p>Français et anglais professionnel — CAP, bac pro, BTS, BP</p>
     <div class="links">
       <a href="/cfa-anglais-professionnel.html">Anglais professionnel</a>
+      <a href="/cfa-francais-professionnel.html">Français professionnel</a>
     </div>
   </section>
 
