@@ -9,6 +9,7 @@ document.querySelector('#app').innerHTML = `
   <a href="#portail">Portail</a>
   <a href="#anglais">Anglais</a>
   <a href="#francais">Français</a>
+  <a href="#fle">FLE</a>
   <a href="#gerex">GEREX</a>
   <a href="#culture">Fêtes</a>
   <a href="https://www.facebook.com/410547534736449/" target="_blank">Facebook</a>
@@ -36,6 +37,15 @@ document.querySelector('#app').innerHTML = `
       <a href="/francais-roman.html">Roman et récit</a>
       <a href="/francais-theatre.html">Théâtre</a>
       <a href="/francais-zatopek.html">Zátopek / Courir (Bac Pro)</a>
+    </div>
+  </section>
+
+  <section class="block fle" id="fle">
+    <div class="icon">🌐</div>
+    <h2>FLE</h2>
+    <p>Français Langue Étrangère — ressources adaptées</p>
+    <div class="links">
+      <a href="#">Fiches vocabulaire et dialogues (en cours)</a>
     </div>
   </section>
 
