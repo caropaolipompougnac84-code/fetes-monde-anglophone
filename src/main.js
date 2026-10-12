@@ -9,6 +9,7 @@ document.querySelector('#app').innerHTML = `
   <a href="#portail">Portail</a>
   <a href="#anglais">Anglais</a>
   <a href="#francais">Français</a>
+  <a href="#cfa">CFA</a>
   <a href="#fle">FLE</a>
   <a href="#segpa">SEGPA</a>
   <a href="#gerex">GEREX</a>
@@ -37,6 +38,15 @@ document.querySelector('#app').innerHTML = `
       <a href="/francais-roman.html">Roman et récit</a>
       <a href="/francais-theatre.html">Théâtre</a>
       <a href="/francais-zatopek.html">Zátopek (terminale pro)</a>
+    </div>
+  </section>
+
+  <section class="block cfa" id="cfa">
+    <h2>CFA</h2>
+    <p>Séquences en français et en anglais, centrées sur l’activité professionnelle</p>
+    <div class="links">
+      <a href="#">Anglais professionnel</a>
+      <a href="#">Français et métiers</a>
     </div>
   </section>
 
