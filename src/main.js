@@ -5,7 +5,7 @@ const description = import.meta.env.VITE_SITE_DESCRIPTION || 'Célébrations du 
 const email = import.meta.env.VITE_CONTACT_EMAIL || ''
 const facebookUrl = 'https://www.facebook.com/410547534736449/'
 const siteUrl = 'https://fetes-monde-anglophone.netlify.app'
-const shareText = encodeURIComponent('Découvrez les fêtes du monde anglophone : ' + siteUrl)
+const shareText = encodeURIComponent('Découvrez les fêtes du monde anglophone')
 
 const festivals = [
   { name: 'Halloween', date: '31 octobre', img: 'https://images.unsplash.com/photo-1508361001413-7a9dca21d08a?w=400', desc: 'Fête des déguisements, citrouilles sculptées et bonbons. Très populaire aux USA, UK et Canada.' },
@@ -47,8 +47,11 @@ document.querySelector('#app').innerHTML = `
   </section>
   <section class="share">
     <h2>Partager</h2>
-    <a class="share-btn whatsapp" href="https://wa.me/?text=${shareText}" target="_blank">WhatsApp</a>
+    <a class="share-btn whatsapp" href="https://wa.me/?text=${shareText}%20${encodeURIComponent(siteUrl)}" target="_blank">WhatsApp</a>
     <a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(siteUrl)}" target="_blank">Facebook</a>
+    <a class="share-btn email" href="mailto:?subject=${shareText}&body=${encodeURIComponent(siteUrl)}">E-mail</a>
+    <button class="share-btn copy" id="copy-link">Copier le lien</button>
+    <p id="copy-msg" style="margin-top:0.75rem;font-size:0.85rem;color:#276749;"></p>
   </section>
   <section class="links">
     <h2>Autres ressources</h2>
@@ -76,3 +79,9 @@ document.querySelector('#app').innerHTML = `
   </div>
 </footer>
 `
+
+document.getElementById('copy-link').addEventListener('click', () => {
+  navigator.clipboard.writeText(siteUrl).then(() => {
+    document.getElementById('copy-msg').textContent = 'Lien copié !'
+  })
+})
