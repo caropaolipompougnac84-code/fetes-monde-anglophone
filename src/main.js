@@ -2,8 +2,8 @@ import './style.css'
 
 document.querySelector('#app').innerHTML = `
 <header>
-  <h1>Ressources Anglais & Lettres</h1>
-  <p class="slogan">Accompagner chaque élève, dans toutes les matières.</p>
+  <h1>Ressources Anglais et Lettres</h1>
+  <p class="slogan">Accompagner chaque élève dans toutes les matières.</p>
 </header>
 <nav>
   <a href="#anglais">Anglais</a>
@@ -66,6 +66,6 @@ document.querySelector('#app').innerHTML = `
   </section>
 </main>
 <footer>
-  <p>© ${new Date().getFullYear()} — Talence — Lycée Michel de Montaigne</p>
+  <p>© ${new Date().getFullYear()} Talence Lycée Michel de Montaigne</p>
 </footer>
 `
