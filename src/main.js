@@ -20,9 +20,9 @@ document.querySelector('#app').innerHTML = `
     </div>
   </section>
 
-  <section class="block lettres">
-    <h2>Lettres & GEREX</h2>
-    <p>Fiches pédagogiques et ressources littéraires</p>
+  <section class="block gerex">
+    <h2>GEREX</h2>
+    <p>Ressources pédagogiques transversales</p>
     <div class="links">
       <a href="https://fiches-gerex.netlify.app">Fiches GEREX</a>
     </div>
