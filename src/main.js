@@ -45,8 +45,7 @@ document.querySelector('#app').innerHTML = `
     <h2>CFA</h2>
     <p>Séquences en français et en anglais, centrées sur l’activité professionnelle</p>
     <div class="links">
-      <a href="#">Anglais professionnel</a>
-      <a href="#">Français et métiers</a>
+      <a href="/cfa-anglais-professionnel.html">Anglais professionnel — électricité</a>
     </div>
   </section>
 
