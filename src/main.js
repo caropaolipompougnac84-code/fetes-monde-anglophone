@@ -7,10 +7,13 @@ document.querySelector('#app').innerHTML = `
 </header>
 <nav>
   <a href="#portail">Portail</a>
+  <a href="#anglais">Anglais</a>
+  <a href="#gerex">GEREX</a>
+  <a href="#culture">Fêtes</a>
   <a href="https://www.facebook.com/410547534736449/" target="_blank">Facebook</a>
 </nav>
 <main id="portail">
-  <section class="block anglais">
+  <section class="block anglais" id="anglais">
     <div class="icon">🇬🇧</div>
     <h2>Anglais</h2>
     <p>Lycée général, professionnel et CFA</p>
@@ -21,7 +24,7 @@ document.querySelector('#app').innerHTML = `
     </div>
   </section>
 
-  <section class="block gerex">
+  <section class="block gerex" id="gerex">
     <div class="icon">🎓</div>
     <h2>GEREX</h2>
     <p>Accompagnement personnalisé — toutes matières</p>
@@ -35,7 +38,7 @@ document.querySelector('#app').innerHTML = `
     </div>
   </section>
 
-  <section class="block culture">
+  <section class="block culture" id="culture">
     <div class="icon">🎉</div>
     <h2>Fêtes & Culture</h2>
     <p>Célébrations du monde anglophone</p>
