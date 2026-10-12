@@ -64,6 +64,13 @@ document.querySelector('#app').innerHTML = `
       <a href="https://fiches-gerex.netlify.app">Cliquez ici pour les fiches</a>
     </div>
   </section>
+
+  <section class="block">
+    <h2>Version PDF</h2>
+    <div class="links">
+      <a href="/portail-pdf.html" target="_blank">Cliquez ici pour télécharger le portail en PDF</a>
+    </div>
+  </section>
 </main>
 <footer>
   <p>© ${new Date().getFullYear()} Talence Lycée Michel de Montaigne</p>
