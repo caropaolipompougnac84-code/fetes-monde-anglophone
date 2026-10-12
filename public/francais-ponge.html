@@ -5,19 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cours — Ponge, La rage de l’expression</title>
   <style>
-    body { font-family: Georgia, serif; margin: 0; background: #f7f5f2; color: #1a1a1a; line-height: 1.6; }
-    .hero { background: linear-gradient(135deg, #0c0c14 0%, #1a1a2e 100%); color: #f8f5f0; padding: 4.5rem 1.5rem 3.5rem; text-align: center; }
-    .hero h1 { margin: 0; font-size: 2.3rem; font-weight: 300; letter-spacing: 1px; }
-    .hero p { margin: 1rem 0 0; color: #e8d48b; font-style: italic; }
-    .content { max-width: 900px; margin: 3rem auto; padding: 0 1.5rem; }
-    .section { background: white; padding: 2.25rem; margin-bottom: 1.75rem; border-radius: 12px; box-shadow: 0 6px 24px rgba(0,0,0,0.05); }
-    .section h2 { margin-top: 0; color: #1a1a2e; border-bottom: 2px solid #d4af37; padding-bottom: 0.5rem; }
-    .excerpt { font-style: italic; border-left: 4px solid #d4af37; padding-left: 1.5rem; margin: 1.25rem 0; color: #333; }
-    ul { padding-left: 1.3rem; }
-    li { margin: 0.4rem 0; }
-    .img-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-    .img-grid img { width: 100%; height: 160px; object-fit: cover; border-radius: 8px; }
-    .back { display: inline-block; margin-top: 1.5rem; color: #d4af37; text-decoration: none; font-weight: 500; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      margin: 0;
+      background: linear-gradient(180deg, #faf8f5 0%, #f3eee6 100%);
+      color: #1a1a1a;
+      line-height: 1.65;
+    }
+    .hero {
+      background: linear-gradient(135deg, #0c0c14 0%, #1a1a2e 50%, #1e2a4a 100%);
+      color: #f8f5f0;
+      padding: 5rem 1.5rem 4rem;
+      text-align: center;
+      position: relative;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, #d4af37, #f5e6a3, #d4af37, transparent);
+    }
+    .hero h1 { margin: 0; font-size: 2.5rem; font-weight: 300; letter-spacing: 1.5px; }
+    .hero p { margin: 1.2rem 0 0; color: #e8d48b; font-style: italic; font-size: 1.15rem; }
+    .content { max-width: 920px; margin: 3.5rem auto; padding: 0 1.5rem; }
+    .section {
+      background: white;
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+    .section:hover { transform: translateY(-3px); }
+    .section h2 {
+      margin-top: 0;
+      color: #1a1a2e;
+      border-bottom: 2px solid #d4af37;
+      padding-bottom: 0.6rem;
+      font-weight: 500;
+    }
+    .excerpt {
+      font-style: italic;
+      border-left: 4px solid #d4af37;
+      padding-left: 1.75rem;
+      margin: 1.5rem 0;
+      color: #333;
+      background: #faf8f5;
+      padding: 1rem 1.75rem;
+      border-radius: 0 8px 8px 0;
+    }
+    ul { padding-left: 1.4rem; }
+    li { margin: 0.5rem 0; }
+    .img-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      margin: 1.75rem 0;
+    }
+    .img-grid img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+    .back {
+      display: inline-block;
+      margin-top: 2rem;
+      color: #d4af37;
+      text-decoration: none;
+      font-weight: 500;
+      border-bottom: 1px solid #d4af37;
+      padding-bottom: 0.2rem;
+    }
   </style>
 </head>
 <body>
@@ -35,15 +98,15 @@
       <h2>Figures de style et enrichissements culturels</h2>
       <p>Ponge travaille la langue comme une matière. Voici des figures fréquentes dans son écriture :</p>
       <div class="img-grid">
-        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400" alt="Métaphore - objet et langage">
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400" alt="Métaphore">
         <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" alt="Personnification">
-        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?w=400" alt="Allitération et sonorités">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?w=400" alt="Sonorités">
       </div>
       <ul>
         <li><strong>Métaphore filée</strong> : l’objet devient un être vivant par accumulation de comparaisons.</li>
         <li><strong>Personnification</strong> : le cageot, le galet, le pain prennent des attitudes.</li>
         <li><strong>Allitérations et assonances</strong> : la langue « sonne » comme la matière.</li>
-        <li><strong>Enrichissement</strong> : influence de la phénoménologie (Husserl) et du matérialisme poétique. Lien avec les natures mortes de Chardin ou de Cézanne.</li>
+        <li><strong>Enrichissement culturel</strong> : influence de la phénoménologie et lien avec les natures mortes de Chardin ou de Cézanne.</li>
       </ul>
     </div>
 
