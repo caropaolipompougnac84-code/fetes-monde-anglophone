@@ -2,8 +2,13 @@ import './style.css'
 
 document.querySelector('#app').innerHTML = `
 <header>
-  <h1>Ressources Anglais et Lettres</h1>
-  <p class="slogan">Accompagner chaque élève dans toutes les matières.</p>
+  <div style="display:flex;align-items:center;justify-content:center;gap:1rem">
+    <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=80&h=80&fit=crop" alt="Logo" style="width:60px;height:60px;border-radius:8px;object-fit:cover">
+    <div>
+      <h1>Ressources Anglais et Lettres</h1>
+      <p class="slogan">Accompagner chaque élève dans toutes les matières.</p>
+    </div>
+  </div>
 </header>
 <nav>
   <a href="#anglais">Anglais</a>
