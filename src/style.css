@@ -91,6 +91,7 @@ main { max-width: 920px; margin: 3.5rem auto; padding: 0 1.5rem; }
 .block.anglais { border-left: 5px solid #3182ce; }
 .block.francais { border-left: 5px solid #744210; }
 .block.cfa { border-left: 5px solid #2b6cb0; }
+.block.cap { border-left: 5px solid #2c5282; }
 .block.fle { border-left: 5px solid #2f855a; }
 .block.segpa { border-left: 5px solid #dd6b20; }
 .block.gerex { border-left: 5px solid #805ad5; }
