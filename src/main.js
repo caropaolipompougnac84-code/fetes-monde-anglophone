@@ -10,6 +10,7 @@ document.querySelector('#app').innerHTML = `
   <a href="#anglais">Anglais</a>
   <a href="#francais">Français</a>
   <a href="#fle">FLE</a>
+  <a href="#segpa">SEGPA</a>
   <a href="#gerex">GEREX</a>
   <a href="#culture">Fêtes</a>
   <a href="https://www.facebook.com/410547534736449/" target="_blank">Facebook</a>
@@ -44,6 +45,16 @@ document.querySelector('#app').innerHTML = `
     <p>Ressources pour le français langue étrangère</p>
     <div class="links">
       <a href="#">Vocabulaire et dialogues</a>
+    </div>
+  </section>
+
+  <section class="block segpa" id="segpa">
+    <div class="icon">📚</div>
+    <h2>SEGPA</h2>
+    <p>Ressources adaptées</p>
+    <div class="links">
+      <a href="#">Fiches simples</a>
+      <a href="#">Vocabulaire illustré</a>
     </div>
   </section>
 
