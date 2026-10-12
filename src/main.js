@@ -60,10 +60,9 @@ document.querySelector('#app').innerHTML = `
   <section class="block segpa" id="segpa">
     <div class="icon">📚</div>
     <h2>SEGPA</h2>
-    <p>Ressources adaptées</p>
+    <p>Ressources concrètes et respectueuses</p>
     <div class="links">
-      <a href="#">Fiches simples</a>
-      <a href="#">Vocabulaire illustré</a>
+      <a href="/segpa.html">Activités professionnelles</a>
     </div>
   </section>
 
