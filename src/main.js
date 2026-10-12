@@ -32,6 +32,7 @@ document.querySelector('#app').innerHTML = `
     <h2>Français</h2>
     <p>Séquences pour la première, en lien avec le programme</p>
     <div class="links">
+      <a href="/francais-rimbaud.html">Poésie — Rimbaud</a>
       <a href="/francais-ponge.html">Poésie — Ponge</a>
       <a href="/francais-la-boetie.html">Littérature d’idées — La Boétie</a>
       <a href="/francais-roman.html">Roman et récit</a>
