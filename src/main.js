@@ -21,6 +21,7 @@ document.querySelector('#app').innerHTML = `
       <a href="https://trame-anglais-lycee.netlify.app">Trames & Séquences</a>
       <a href="https://prononciation-anglaise.netlify.app">Prononciation</a>
       <a href="https://hors-manuel.netlify.app">Hors manuel</a>
+      <a href="https://elements-civilisation-anglophone.netlify.app">Éléments de civilisation</a>
     </div>
   </section>
 
@@ -44,6 +45,7 @@ document.querySelector('#app').innerHTML = `
     <p>Célébrations du monde anglophone</p>
     <div class="links">
       <a href="https://fetes-monde-anglophone.netlify.app">Fêtes du monde anglophone</a>
+      <a href="https://elements-civilisation-anglophone.netlify.app">Civilisation : fêtes et traditions</a>
     </div>
   </section>
 </main>
