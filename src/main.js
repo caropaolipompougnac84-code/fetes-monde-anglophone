@@ -18,9 +18,9 @@ document.querySelector('#app').innerHTML = `
     <h2>Anglais</h2>
     <p>Lycée général et professionnel</p>
     <div class="links">
-      <a href="https://trame-anglais-lycee.netlify.app">Trames</a>
-      <a href="https://prononciation-anglaise.netlify.app">Prononciation</a>
-      <a href="https://elements-civilisation-anglophone.netlify.app">Civilisation</a>
+      <a href="https://trame-anglais-lycee.netlify.app">Cliquez ici — Trames</a>
+      <a href="https://prononciation-anglaise.netlify.app">Cliquez ici — Prononciation</a>
+      <a href="https://elements-civilisation-anglophone.netlify.app">Cliquez ici — Civilisation</a>
     </div>
   </section>
 
@@ -28,10 +28,10 @@ document.querySelector('#app').innerHTML = `
     <h2>Français</h2>
     <p>Première générale</p>
     <div class="links">
-      <a href="/francais-rimbaud.html">Rimbaud</a>
-      <a href="/francais-ponge.html">Ponge</a>
-      <a href="/francais-la-boetie.html">La Boétie</a>
-      <a href="/francais-theatre.html">Théâtre</a>
+      <a href="/francais-rimbaud.html">Cliquez ici — Rimbaud</a>
+      <a href="/francais-ponge.html">Cliquez ici — Ponge</a>
+      <a href="/francais-la-boetie.html">Cliquez ici — La Boétie</a>
+      <a href="/francais-theatre.html">Cliquez ici — Théâtre</a>
     </div>
   </section>
 
@@ -39,29 +39,29 @@ document.querySelector('#app').innerHTML = `
     <h2>CFA</h2>
     <p>Français et anglais professionnel</p>
     <div class="links">
-      <a href="/cfa-anglais-professionnel.html">Anglais professionnel</a>
-      <a href="/cfa-francais-professionnel.html">Français professionnel</a>
+      <a href="/cfa-anglais-professionnel.html">Cliquez ici — Anglais professionnel</a>
+      <a href="/cfa-francais-professionnel.html">Cliquez ici — Français professionnel</a>
     </div>
   </section>
 
   <section class="block cap" id="cap">
     <h2>CAP</h2>
     <div class="links">
-      <a href="/cap-anglais-professionnel.html">Anglais professionnel</a>
+      <a href="/cap-anglais-professionnel.html">Cliquez ici — Anglais professionnel</a>
     </div>
   </section>
 
   <section class="block segpa" id="segpa">
     <h2>SEGPA</h2>
     <div class="links">
-      <a href="/segpa.html">Activités</a>
+      <a href="/segpa.html">Cliquez ici — Activités</a>
     </div>
   </section>
 
   <section class="block gerex" id="gerex">
     <h2>GEREX</h2>
     <div class="links">
-      <a href="https://fiches-gerex.netlify.app">Fiches</a>
+      <a href="https://fiches-gerex.netlify.app">Cliquez ici — Fiches</a>
     </div>
   </section>
 </main>
